@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gaana Music</title>
+    <link rel="stylesheet" href="/gaaana.css" />
+    <script
+      src="https://kit.fontawesome.com/yourcode.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <span
+        style="
+          font-size: 16px;
+          margin-left: 30px;
+          padding-top: 7px;
+          cursor: pointer;
+        "
+        onclick="openNav()"
+        >&#9776;
+      </span>
+      <a href="#">
+        <img
+          src="gaana.com logo.jpeg"
+          alt=""
+          width="30px"
+          style="margin-left: 25px; padding-top: 7px"
+        />
+      </a>
+      <a href="#">
+        <img
+          src="/gaana.png"
+          alt=""
+          width="45px"
+          style="padding-top: 2px"
+          class="gaana-Text"
+        />
+      </a>
+
+      <div class="searchbar">
+        <form action="">
+          <input type="text" placeholder="search" />
+        </form>
+      </div>
+      <div class="buttons">
+        <button class="new"><b> New</b></button>
+        <button class="B2"><b> Go Add Free </b></button>
+        <button class="one"><b> Get Gaana Plus</b></button>
+      </div>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="#">
+        <img
+          src="/icon eng.png"
+          alt=""
+          style="width: 25px; margin-top: 7px"
+          class="language"
+        />
+        <a href="#"></a>
+      </a>
+      <button class="lS" id="" onclick="openLogin()">Log In/Sign up</button>
+
+      <div class="login" id="signIN">
+        <div class="boxes">
+          <div class="slbox">
+            <div>
+              <img
+                src="/closeicon.png"
+                alt=""
+                onclick="btnclose()"
+                width="20px"
+                height="20px"
+              />
+            </div>
+            <div class="links">
+              <img
+                src="/gaananewlogo.jpeg"
+                alt=""
+                width="30px"
+                height="30px"
+                style="margin-top: 60px"
+                class="gaaanaLogo"
+              />
+              <img
+                src="/gaana.png"
+                alt=""
+                width="85px"
+                class="gaaanaText"
+                style="margin-top: 47px"
+              />
+            </div>
+            <h3 class="loginBody">Login/Signup</h3>
+            <h6 class="personalised">
+              Get a personalised experience, and acess all your music.
+            </h6>
+            <form action="">
+              <input
+                type="number email"
+                placeholder="Enter Email or Mobile number"
+                style="
+                  -size: x-small;
+                  width: 280px;
+                  border-top: transparent;
+                  border-left: 0px;
+                "
+              />
+            </form>
+            <button class="btn">Continue</button>
+            <h5
+              style="text-align: center; margin-top: 50px; font-weight: lighter"
+            >
+              -------- or continue with ---------
+            </h5>
+            <button class="Btn">
+              <a
+                href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?redirect_uri=storagerelay%3A%2F%2Fhttps%2Fgaana.com%3Fid%3Dauth649547&response_type=code%20permission%20id_token&scope=openid%20profile%20email&openid.realm&include_granted_scopes=true&client_id=776891288343-9qek5kfpa2fha96pdo4i8g744m75pmrg.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fgaana.com&access_type=offline&prompt=consent&origin=https%3A%2F%2Fgaana.com&gsiwebsdk=2&service=lso&o2v=1&flowName=GeneralOAuthFlow"
+                target="_self"
+              >
+                Google</a
+              >
+              <img
+                src="/googlelogo.png"
+                alt=""
+                style="width: 10px; height: 10px"
+              />
+            </button>
+          </div>
+
+          <div class="imgbox">
+            <img
+              src="/newgirlhead.jpeg"
+              alt=""
+              style="height: 450px; width: 234px"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="navbar">
+      <ul class="navigation">
+        <li><a href="#"> All</a></li>
+        <li><a href="#"> Trending Songs </a></li>
+        <li><a href="#"> New Songs</a></li>
+        <li><a href="#"> Old Songs</a></li>
+        <li>
+          <select name="" id="" class="mood">
+            <option value="" class="" id="">Moods & Generes</option>
+            <option value="">Party</option>
+            <option value="">Romanc</option>
+            <option value="">90s and 2000s</option>
+            <option value="">Bhakti</option>
+            <option value="">Indie</option>
+            <option value="">EDM</option>
+            <option value="">Ghazals</option>
+            <option value="">Workout</option>
+          </select>
+        </li>
+
+        <li><a href="#"> Album</a></li>
+        <li><a href="#"> Radio</a></li>
+        <li><a href="#"> Podcast</a></li>
+        <li><a href="#"> My Music</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="image">
+        <img src="/banner1.webp" alt="" height="250" width="400" class="img1" />
+        <img src="/banner2.webp" alt="" height="250" width="400" class="img2" />
+      </div>
+    </div>
+    <div class="trending">
+      <h3>Trending Songs</h3>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/dil ne.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+            />
+          </td>
+          <td>
+            <img
+              src="/jalebi.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/Khabbi Seat.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/oh sanam.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/pani di gal.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext">Dil ne</td>
+          <td class="boxtext">Jalebi Baby</td>
+          <td class="boxtext">Khabbi Seat</td>
+          <td class="boxtext">OH sanam</td>
+          <td class="boxtext">Pani di gal</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="newreleases">
+      <h3 style="margin-left: 60px">New Releases</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/did you n.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/endless summer.jpg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/farishtey.jpg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/sad.jpg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/bad boy.jpg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext">Dil ne</td>
+          <td class="boxtext">Jalebi Baby</td>
+          <td class="boxtext">Khabbi Seat</td>
+          <td class="boxtext">OH sanam</td>
+          <td class="boxtext">Pani di gal</td>
+        </tr>
+      </table>
+    </div>
+    <div class="topcharts">
+      <h3 style="margin-left: 60px">Top Charts</h3>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/90,s top 50.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/hindi top 50.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/international top 50.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/punjabi top50.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/punjabi Romance.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext">Dil ne</td>
+          <td class="boxtext">Jalebi Baby</td>
+          <td class="boxtext">Khabbi Seat</td>
+          <td class="boxtext">OH sanam</td>
+          <td class="boxtext">Pani di gal</td>
+        </tr>
+      </table>
+    </div>
+    <div class="topsearchedartist">
+      <h3 style="margin-left: 60px">Top Searched Artist</h3>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/Ar rahman.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/neha kakaar.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/best of alan walker.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/best of karan aujala.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px; margin-left: 10px"
+            />
+          </td>
+          <td>
+            <img
+              src="/best of sidhu mossewala.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px; margin-left: 3px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext">Best of AR Ra..</td>
+          <td class="boxtext">Best of Neha..</td>
+          <td class="boxtext">Best of Alan Wal.</td>
+          <td class="boxtext">Best of karan A..</td>
+          <td class="boxtext">Best of Sidhu..</td>
+        </tr>
+      </table>
+    </div>
+    <div class="topplaylist">
+      <h3 style="margin-left: 60px">Top Playlist</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/heartbreak hits.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/new release.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/viral hits.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/ultimate drive.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/punjabi sad songs.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small" ;>Heartbreak Hits</td>
+          <td class="boxtext" style="font-size: small">New Releases pu..</td>
+          <td class="boxtext" style="font-size: small">Viral Hits</td>
+          <td class="boxtext" style="font-size: small">Ultimate Drive</td>
+          <td class="boxtext" style="font-size: small">Sad song pun...</td>
+        </tr>
+      </table>
+    </div>
+    <div class="popularinhindi">
+      <h3 style="margin-left: 60px">Popular In Hindi</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/mann bhareya.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/baarish ban jaana.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/mujhe kase  pta na chla.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/filhaal2 Mohabaat.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/kabhi tumhe.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small">Mann Bhareya 2.0</td>
+          <td class="boxtext" style="font-size: small">New Releases pu..</td>
+          <td class="boxtext" style="font-size: small">Viral Hits</td>
+          <td class="boxtext" style="font-size: small">Ultimate Drive</td>
+          <td class="boxtext" style="font-size: small">Sad song pun...</td>
+        </tr>
+      </table>
+    </div>
+    <div class="romance">
+      <h3 style="margin-left: 60px">Romance</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/love hits.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="border-radius: 5px; margin-bottom: 0px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/B praak-Romantic"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/First love.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/Bollywood love Anthem.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/Hardy Sandhu Romance.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small">Love Hits</td>
+          <td class="boxtext" style="font-size: small">B preak Rom..</td>
+          <td class="boxtext" style="font-size: small">First Love</td>
+          <td class="boxtext" style="font-size: small">Bollywood Love An..</td>
+          <td class="boxtext" style="font-size: small">Hardy Randhu</td>
+        </tr>
+      </table>
+    </div>
+    <div class="featuredartist">
+      <h3 style="margin-left: 60px">Featured Artist</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/pritam.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 100px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/b praak.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/badshah.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/arijit.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/tony kakkar.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Love Hits
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            B preak Rom..
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            First Love
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Bollywood Love An..
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Hardy Randhu
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="radio">
+      <h3 style="margin-left: 60px">Radio</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/radio 90,s.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 100px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/radio party non stop.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/radio love hits.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/radio workout.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="/radio bhakti.jpeg"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 100px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            90s $2000. B.. and
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Party non stop
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Love Hits
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Workout Songs
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Bhakti Songs
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="gaanarecommends">
+      <h3 style="margin-left: 60px">Gaana Recommends</h3>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/hip hop.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 5px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/reels te hit.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/fell good pop.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/bollywood lo fi.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/punjabiya da s.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Hip-Hop IND
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Rells Te Hit
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Fell Good Pop
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Bollywood Lo Fi
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Punjabiyan Da Song
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="gaanaorignals">
+      <h3 style="margin-left: 60px">Gaana Orignals</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/Fuljhadi.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 5px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/Beautiful.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/dua  qubool.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/chal oye.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/zinda.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Fuljhadi
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Beautiful
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Dua Qubool
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Chal Oye
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Zindagi Mil Jayegi
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="stargallery">
+      <h3 style="margin-left: 60px">Star Gallery</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/kajol.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 5px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/amy vr.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/ranbir.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/dil jit.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/alia bhatt.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Featuring Kajol
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Best of Ammy Virk
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Featuring Ranbir
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Best of Diljit D..
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Featuring Alia Bhatt
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="bhakti">
+      <h3 style="margin-left: 60px">Bhakti</h3>
+
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/bhakti hindi.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 5px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/bjhakti pu.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5x"
+            />
+          </td>
+          <td>
+            <img
+              src="/popular.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/mata di.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/practically.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Bhakti Top 50-Hindi
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Bhakti Top 50 Punj..
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Popular Collection
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Mata di Bhentein
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Practically Gita
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="indieplaylist">
+      <h3 style="margin-left: 60px">Indie - Playlist</h3>
+      <table>
+        <tr>
+          <td>
+            <img
+              src="/indie.webp"
+              alt=""
+              height="120"
+              width="120px"
+              style="margin-bottom: 0px; border-radius: 5px"
+              class="newreleasebox"
+            />
+          </td>
+          <td>
+            <img
+              src="/nir.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/hip hop.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/new age.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+          <td>
+            <img
+              src="/desi hip.webp"
+              alt=""
+              height="120"
+              width="120px"
+              class="boximg"
+              style="border-radius: 5px"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Indie Swag
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            New Indie Releases
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Hip Hop IND
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            New Age Indie
+          </td>
+          <td class="boxtext" style="font-size: small; text-align: center">
+            Desi Hip Hop
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>
+      <h2 style="text-align: center"><b> Bas Bajna Chaiye Gaaan</b></h2>
+      <p style="font-size: small; text-align: center">
+        Gaana is the one-stop solution for all your music needs. Gaana offers
+        you free, unlimited access to over 30 <br />
+        million Hindi Songs, Bollywood Music, English MP3 songs, Regional Music
+        & Mirchi Play.
+      </p>
+      <div class="iconbox">
+        <span style="margin-left: 450px">
+          <a href="#" class="icon fa fa-facebook"> </a>
+          <a href="#" class="icon fa fa-twitter"> </a>
+        </span>
+      </div>
+      <div class="iconboxtwo"></div>
+      <div class="quicklinks">
+        <h3 class="quick"><b> Quicklinks</b></h3>
+        <table style="font-size: x-small">
+          <tr>
+            <th><b>Album</b></th>
+            <th>Genres</th>
+            <th>Artist</th>
+            <th>New Releases</th>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td>Bollywood Songs</td>
+            <td>Honey Singh</td>
+            <td>English Songs</td>
+          </tr>
+          <tr>
+            <td>Hindi</td>
+            <td>Devotional Songs</td>
+            <td>Neha Kakkar</td>
+            <td>Hindi Songs</td>
+          </tr>
+          <tr>
+            <td>Punjabi</td>
+            <td>Bhazan</td>
+            <td>Ati</td>
+            <td>Gujrati Songs</td>
+          </tr>
+
+          <tr>
+            <td>Tamil</td>
+            <td>Patriotic Songs</td>
+            <td>AR Rahmsn</td>
+            <td>Tamil Songs</td>
+          </tr>
+
+          <tr>
+            <td>Telgu</td>
+            <td>Ghazal</td>
+            <td>Arijit Singh</td>
+            <td>Gujrati Songs</td>
+          </tr>
+
+          <tr>
+            <td>Kannada</td>
+            <td>Kids Songs</td>
+            <td>Lata Mangeshkar</td>
+            <td>Kannada Songs</td>
+          </tr>
+
+          <tr>
+            <td>Bhojpuri</td>
+            <td>Rock Songs</td>
+            <td>Kishore Kumar</td>
+            <td>Bhojpuri Songs</td>
+          </tr>
+
+          <tr>
+            <td>Marathi</td>
+            <td>Sufi Songs</td>
+            <td>Nusrat</td>
+            <td>Bengali Songs</td>
+          </tr>
+
+          <tr>
+            <td>Gujrati Songs</td>
+            <td>Mohammad Rafi</td>
+            <td>Arijit Singh</td>
+            <td>Rajasthani Songs</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Guru Randhawa</td>
+            <td>Assamie Songs</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td>Justien Bieber</td>
+            <td>Haryanvi Songs</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td>BTS</td>
+            <td></td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Odia Songs</td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Gujrati</td>
+          </tr>
+        </table>
+      </div>
+    </footer>
+
+    <!-- //// threeedot JS// -->
+
+    <!-- //// music starts...// -->
+    <div class="music">
+      <progress id="file" value="32" max="100">32%</progress>
+
+      <div class="musicBody">
+        <div class="boxmusicimg">
+          <img
+            src="/logomi.webp"
+            alt=""
+            width="30px"
+            height="30px"
+            style="margin-top: 15px; margin-left: 15px"
+          />
+        </div>
+        <div class="musicbtns">
+          <div class="P">
+            <button class="premium" onclick="openPre()">Premium</button>
+            <h6 class="oh">Oh Sanam</h6>
+          </div>
+        </div>
+        <h5 class="saNAM">Oh Sanam</h5>
+
+        <img
+          src="/hearticon.png"
+          alt=""
+          width="20px"
+          height="20px"
+          style="margin-left: 57px; margin-top: 23px"
+        />
+
+        <div class="jsTHREEDOT" id="openthreeDOT">
+          <div class="content">
+            <ul class="threeDot">
+              <li><img src="/icons8-share-48.png" alt="" /> Share</li>
+              <li>
+                <img src="/icons8-add-song-30.png" alt="" /> Add to Playlist
+              </li>
+              <li><img src="/icons8-download-50.png" alt="" /> Download</li>
+              <li><img src="/icons8-lyrics-64.png" alt="" /> View Lyrics</li>
+              <li>
+                <img src="/icons8-radio-50.png" alt="" /> Play Similar Songs
+              </li>
+              <li><img src="/icons8-info-26.png" alt="" /> Get Song info</li>
+              <li class="view">
+                <img src="/icons8-public-speaking-64.png" alt="" /> View Artist
+              </li>
+              <li class="names">Tony Kakkar</li>
+              <li class="names">Shreya Ghosal</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="threeDotBox">
+          <img
+            src="/threedoticon.png"
+            alt=""
+            onclick="openthreeDOT()"
+            width="20px"
+            height=" 20px "
+          />
+        </div>
+
+        <button class="Timer">00:7/00:18</button>
+        <!-- ///playouter  starts////  -->
+
+        <img src="/icons8-previous-30.png" alt="" width="22px" height="22px"  class="musicItem">
+        <img src="/repeat icon.png" alt="" width="22px" height="22px" class="musicItem"/>
+        <div class="playboxOuter">
+          <img
+            src="/icons8-play-30.png"
+            alt=""
+            width="22px"
+            height=" 22px"
+            id="playMusic"
+            onclick="playPause()"
+          />
+          <img
+            src="/icons8-pause-30.png"
+            alt=""
+            width="22px"
+            height=" 22px"
+            id="pauseMusic"
+            onclick="playPause()"
+          />
+        </div>
+
+        <img src="/icons8-last-50.png" alt="" width="19px" height="19px" class="musicItem" />
+      </div>
+    </div>
+
+   
+      <img src="/volume icon.jpeg" alt="" width="20px" height=" 20px" />
+    
+    <button class="AUdio">Audio High</button>
+    <div>
+      <img
+        src="/upper arrow.png"
+        class="arrow"
+        alt=""
+        width="10px"
+        height="10px"
+      />
+    </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.display = "block";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.display = "none";
+      }
+      function openLogin() {
+        document.getElementById("signIN").style.display = "block";
+      }
+      function btnclose() {
+        document.getElementById("signIN").style.display = "none";
+      }
+
+      function openPre() {
+        document.getElementById("pre").style.display = "block";
+      }
+      function openthreeDOT() {
+        if (document.getElementById("openthreeDOT").style.display === "none") {
+          document.getElementById("openthreeDOT").style.display = "block";
+        } else {
+          document.getElementById("openthreeDOT").style.display = "none";
+        }
+      }
+      function playPause() {
+        if (document.getElementById("playMusic").style.display === "block") {
+          document.getElementById("playMusic").style.display = "none";
+
+          document.getElementById("pauseMusic").style.display = "block";
+        } else {
+          document.getElementById("playMusic").style.display = "block";
+          document.getElementById("pauseMusic").style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

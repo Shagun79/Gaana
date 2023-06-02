@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    /* width */
+    ::-webkit-scrollbar {
+      width: 3px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+
+    .jsTHREEDOT {
+      display: inline-block;
+      
+      
+    }
+
+    .threeDot {
+      border: 1px solid white;
+      width: 150px;
+      max-height: 210px;
+      /* margin-left: 20x; */
+      font-size: x-small;
+      padding: 0px;
+      overflow-y: scroll;
+      border-radius: 3px;
+      box-shadow: 2px -2px 12px grey;
+      position: absolute;
+    left: 200px;
+    }
+
+    .threeDot li {
+      list-style-type: none;
+      padding: 5px;
+      margin-left: px;
+      width: 140px;
+      padding-right: 0px;
+      padding-left: 15px;
+    }
+    .threeDot li:hover{
+        background-color: rgb(154, 153, 153);
+    }
+    .threeDot li img {
+      width: 10px;
+      height: 13px;
+    }
+    .view {
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+    }
+    .names {
+      padding-bottom: 0px;
+      padding-top: 0px;
+      font-size: x-small;
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+  </style>
+
+  <body>
+    <div class="jsTHREEDOT" id="openthreeDOT">
+      <div class="content">
+        <ul class="threeDot">
+          <li><img src="/icons8-share-48.png" alt="" /> Share</li>
+          <li><img src="/icons8-add-song-30.png" alt="" /> Add to Playlist</li>
+          <li><img src="/icons8-download-50.png" alt="" /> Download</li>
+          <li><img src="/icons8-lyrics-64.png" alt="" /> View Lyrics</li>
+          <li><img src="/icons8-radio-50.png" alt="" /> Play Similar Songs</li>
+          <li><img src="/icons8-info-26.png" alt="" /> Get Song info</li>
+          <li class="view">
+            <img src="/icons8-public-speaking-64.png" alt="" /> View Artist
+          </li>
+
+          <li class="names">Tony Kakkar</li>
+          <li class="names">Shreya Ghosal</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
